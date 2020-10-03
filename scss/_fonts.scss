@@ -1,0 +1,26 @@
+@font-face{
+  font-family: 'GothamRounded-Book', sans-serif;
+  src: url(../fonts/GothamRounded-Book.woff2) format('woff2'),
+       url(../fonts/GothamRounded-Book.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'GothamRounded-Medium', sans-serif;
+  src: url(../fonts/GothamRounded-Medium.woff2) format('woff2'),
+       url(../fonts/GothamRounded-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'GothamRounded-MediumItalic', sans-serif;
+  src: url(../fonts/GothamRounded-MediumItalic.woff2) format('woff2'),
+       url(../fonts/GothamRounded-MediumItalic.woff) format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
