@@ -183,9 +183,9 @@
       }
       & button{
         font-size: 0;
-        height: 16px;
-        width: 14px;
         border: 2px solid #cbcdcc;
+        height: 16px;
+        width: 16px;
         border-radius: 50%;
         outline: none;
         cursor: pointer;
@@ -428,9 +428,10 @@
         background-color: #212024;
       }
       & button{
+        box-sizing: border-box;
         font-size: 0;
         height: 16px;
-        width: 14px;
+        width: 16px;
         border: 2px solid #cbcdcc;
         border-radius: 50%;
         outline: none;
