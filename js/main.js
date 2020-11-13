@@ -94,13 +94,10 @@ $(function(){
   });
 
 
-  // закрыть на крестик
   $('.popup-map__item-btn').on('click', function () {
     $('.popup-map').fadeOut();
   });
 
-
-  // закрыть по клику вне окна
   $(document).on('mouseup', function (e) {
     var popup = $('.popup-map__item');
     if (e.target != popup[0] && popup.has(e.target).length === 0) {
